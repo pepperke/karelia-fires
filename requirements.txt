@@ -1,0 +1,5 @@
+geopandas
+dash
+plotly
+folium
+pyproj>=2.2.1
