@@ -1,7 +1,20 @@
-<p><a href="https://nbviewer.jupyter.org/github/pepperke/karelia_fires/blob/master/Karelia_fires.ipynb">
-Интерактивная версия ноутбука</a></p>
-<p>Данные пожаров были предоставлены Карельским республиканским
+Пожары Карелии
+==============
+
+Интерактивное веб-приложение, позволяющее оценить количество пожаров, их влияние на экономику региона, а также количество местных жителей, готовых добровольно помогать тушить пожары.
+
+![example](example.gif)
+-----------------------
+
+Чтобы запустить приложение, создайте новую виртуальную среду и установите зависимости:
+`pip install -r requirements.txt`
+или 
+`conda install --file requirements.txt -c conda-forge`,
+если используете `conda`.
+
+Данные пожаров были предоставлены Карельским республиканским
 отделением Общероссийской общественной организации Всероссийское
-добровольное пожарное общество http://vdpo.karelia.info/</p>
-<p>Данные о районах Карелии были получены с помощью <a href="http://overpass-turbo.eu">
-Overpass API</a> на базе <a href="https://www.openstreetmap.org">OpenStreetMap</a>.</p>
+добровольное пожарное общество (http://vdpo.karelia.info/)
+
+Данные о районах Карелии были получены с помощью <a href="http://overpass-turbo.eu">
+Overpass API</a> на базе <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
